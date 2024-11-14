@@ -17,6 +17,5 @@ model_params:
     random_state: 42
 
 output_paths:
-  figures: "./figures/"
   logs: "./logs/"
 
