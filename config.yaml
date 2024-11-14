@@ -1,0 +1,22 @@
+data:
+  train_file: "./data/train.csv"
+  test_file: "./data/test.csv"
+  mobility_file: "./data/mobility_data.parquet"
+  train_enriched: "./data/train_enriched.csv"
+  test_enriched: "./data/test_enriched.csv"
+  submission_file: "./data/submission.csv"
+  
+mobility_sample_size: 100000  # Tamaño de la muestra de mobility_data
+hex_resolution: 9  # Nivel de resolución H3 para la generación de hexágonos
+
+model_params:
+  gradient_boosting:
+    n_estimators: [50, 100, 200]
+    learning_rate: [0.01, 0.1]
+    max_depth: [3, 5, 7]
+    random_state: 42
+
+output_paths:
+  figures: "./figures/"
+  logs: "./logs/"
+
