@@ -1,0 +1,3 @@
+Mejores Hiperparámetros: {'colsample_bytree': 0.7, 'learning_rate': 0.03, 'max_depth': 10, 'n_estimators': 100, 'num_leaves': 15, 'reg_alpha': 0, 'reg_lambda': 0.01, 'subsample': 0.6}
+Mejor RMSE promedio en validación cruzada: 0.184278
+RMSE en conjunto de validación: 0.184278
