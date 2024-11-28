@@ -62,7 +62,7 @@ Below is a Python snippet using the h3 library to convert latitude and longitude
 ## First, make sure to install the h3-py library:
 ## pip install h3
 
-bash''
+
 import h3
 
 ## Example coordinates
