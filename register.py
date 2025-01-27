@@ -5,7 +5,7 @@ register_url = 'https://makers-challenge.altscore.ai/v1/register'
 
 # Datos de registro (ajustados según los requisitos)
 data = {
-    "alias": "alex_strange",           # Tu alias o nombre de usuario
+    "alias": "alex_strange",           # alias
     "country": "MEX",                  # Código de país ISO 3166-1 alpha-3
     "email": "codelogman@gmail.com",       # Tu correo electrónico real
     "apply_role": "engineering"        # Rol válido: "engineering", "data", o "integrations"
